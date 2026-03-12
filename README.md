@@ -28,3 +28,18 @@ Build output is written to `dist/` as:
 ## Distribution
 
 Publish each built `.nvda-addon` as a GitHub Release asset and use the direct `https` asset URL in NVDA add-on datastore submission.
+
+## Publish Automation
+
+If `gh` is installed and authenticated, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\publish.ps1 -GitHubOwner YOUR_GITHUB_USERNAME
+```
+
+This command:
+
+- builds the add-on
+- creates/pushes a GitHub repository
+- creates or updates a GitHub release asset
+- opens the prefilled NVDA add-on datastore registration form

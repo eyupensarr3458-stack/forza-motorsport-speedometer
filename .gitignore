@@ -1,5 +1,6 @@
 dist/
 _tmp_addon_datastore/
 src_extracted/
+.tools/
 *.nvda-addon
 *.zip
