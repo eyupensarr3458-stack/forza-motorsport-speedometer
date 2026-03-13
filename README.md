@@ -25,7 +25,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build.ps1
 
 Build output is written to `dist/` as:
 
-- `forza_precision_telemetry-4.0.3.nvda-addon`
+- `forza_precision_telemetry-1.0.nvda-addon`
 
 ## Distribution
 
