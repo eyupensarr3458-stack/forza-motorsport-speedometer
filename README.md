@@ -2,6 +2,8 @@
 
 NVDA global plugin for Forza telemetry announcements over UDP.
 
+For Forza Motorsport, open `Gameplay > Data Out`, enable `Data Out`, set `Data Out IP Address` to your IPv4 address, set the port to `5300`, and set `Data Out Package Format` to `Car Dash`.
+
 ## Features
 
 - Announces current vehicle speed with `Alt+A`.
@@ -23,7 +25,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\build.ps1
 
 Build output is written to `dist/` as:
 
-- `forza_precision_telemetry-4.0.2.nvda-addon`
+- `forza_precision_telemetry-4.0.3.nvda-addon`
 
 ## Distribution
 

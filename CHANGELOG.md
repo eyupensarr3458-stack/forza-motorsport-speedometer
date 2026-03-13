@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.3 - 2026-03-13
+
+- Added explicit Forza Motorsport `Gameplay > Data Out` setup instructions to the add-on description for store users.
+- Regenerated the submission package and datastore metadata for the updated description.
+
 ## 4.0.2 - 2026-03-13
 
 - Moved the stable release target to the latest non-experimental NVDA API version accepted by the add-on datastore.
